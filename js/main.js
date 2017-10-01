@@ -1,12 +1,15 @@
-$(document).onReady(function() {
+$(document).ready(function() {
   $("#owl-slider").owlCarousel({
-      navigation: false,
+      nav: true,
+      loop: true,
       pagination: true,
-      itemsCustom : [
-        [0, 1],
-        [700, 2],
-        [960, 3]
-     ],
-      navigationText: false
+      responsive: {
+        0: {
+          items: 1
+        },
+        500: {
+          items: 2
+        }
+      }
   });
 })

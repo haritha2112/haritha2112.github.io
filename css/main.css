@@ -835,7 +835,7 @@ button.full-width, .button.full-width {
 	border-color: #2c74e8;
 	color: #FFFFFF;
 }
-#contact button.submitform {
+#contactFormSubmit {
 	font-size: 1.5rem;
 	display: block;
 	letter-spacing: .2rem;
@@ -847,7 +847,7 @@ button.full-width, .button.full-width {
 	background: #FF0077;
 	color: #FFFFFF;
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
+#contactFormSubmit:hover, #contactFormSubmit:focus {
 	background: #cc005f;
 }
 
@@ -863,4 +863,32 @@ button.full-width, .button.full-width {
   #contact textarea {
     font-size: 1.5rem;
   }
+}
+
+/** --- Alert Boxes --- **/
+
+.alert-box {
+	padding: 0.1rem 4rem 0.1rem 3rem;
+	position: relative;
+	border-radius: 3px;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.alert-box .close {
+	position: absolute;
+	right: 1.8rem;
+	top: 2.3rem;
+	cursor: pointer;
+}
+.ss-error {
+	background-color: #ffd1d2;
+	color: #e65153;
+}
+.ss-success {
+	background-color: #c8e675;
+	color: #758c36;
 }

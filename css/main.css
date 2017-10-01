@@ -97,8 +97,8 @@ input[type="button"] {
   line-height: 5.4rem;
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
-  background: #d8d8d8;
-  color: #313131;
+  background: #FF0077;
+  color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
@@ -318,6 +318,8 @@ button.full-width, .button.full-width {
 }
 .button-section .button {
   width: 250px;
+  background: #FF0077;
+  color: #FFFFFF;
 }
 
 /** --- Responsive: About --- **/
@@ -855,13 +857,38 @@ button.full-width, .button.full-width {
 	height: 6.6rem;
 	line-height: 6.6rem;
 	padding: 0 3rem;
-	margin-top: 4.8rem;
+	margin-top: 2.8rem;
 	width: 100%;
 	background: #FF0077;
 	color: #FFFFFF;
 }
 #contactFormSubmit:hover, #contactFormSubmit:focus {
 	background: #cc005f;
+}
+
+.contact-social {
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  left: 0;
+  top: 5rem;
+  bottom: 7.2rem;
+  font-size: 3.3rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 10rem;
+}
+.contact-social li {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 0;
+}
+.contact-social li a, .contact-social li a:visited {
+  color: #FFFFFF;
+}
+.contact-social li a:hover, .contact-social li a:focus {
+  color: #cc005f;
 }
 
 /** --- Responsive: Contact --- **/
@@ -875,6 +902,18 @@ button.full-width, .button.full-width {
   #contact input[type="email"],
   #contact textarea {
     font-size: 1.5rem;
+  }
+  .contact-social {
+    font-size: 2.5rem;
+  }
+  .contact-social li {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .contact-social {
+    font-size: 2.4rem;
   }
 }
 

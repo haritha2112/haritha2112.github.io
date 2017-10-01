@@ -201,8 +201,8 @@ button.full-width, .button.full-width {
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.intro-content h5 {
-  color: #cc005f;
+.intro-content h3 {
+  color: #f70777;
   font-size: 2.3rem;
   line-height: 1.565;
   margin-bottom: 0;
@@ -236,7 +236,7 @@ button.full-width, .button.full-width {
   .intro-content h1 {
     font-size: 5.2rem;
   }
-  .intro-content h5 {
+  .intro-content h3 {
     font-size: 1.8rem;
   }
   .intro-content .intro-position {
@@ -251,7 +251,7 @@ button.full-width, .button.full-width {
     font-size: 4.6rem;
     margin-bottom: .6rem;
   }
-  .intro-content h5 {
+  .intro-content h3 {
     font-size: 1.5rem;
     margin-bottom: .3rem;
     letter-spacing: .2rem;
@@ -345,7 +345,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-intro h3 {
+  .section-intro h1 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -424,7 +424,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-skills h2 {
+  .section-skills h1 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -495,7 +495,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-work-exp h2 {
+  .section-work-exp h1 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -563,7 +563,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-work-exp h2 {
+  .section-work-exp h1 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -725,7 +725,7 @@ button.full-width, .button.full-width {
 	}
 }
 @media only screen and (max-width:480px) {
-	#education .education-header h2 {
+	#education .education-header h1 {
 		font-size: 2.2rem;
 	}
 	#education .timeline-wrap::before {

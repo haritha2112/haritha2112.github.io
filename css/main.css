@@ -784,19 +784,21 @@ button.full-width, .button.full-width {
 /** --- Contact --- **/
 
 #contact {
-  background: #808080;
-  background: #1d3f54;
+  background: #151212;
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
 #contact .section-intro h1 {
-	color: white;
+	font-family: 'Merienda', cursive;
+  color: #FF0077;
+  line-height: 1.875;
+  margin-bottom: 1.6rem;
+  letter-spacing: .4rem;
+  padding-bottom: 30px;
 }
-#contact .section-intro h5 {
-	color: #FF0077;
-}
-#contact .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+#contact .section-intro h3 {
+	color: #FFFFFF;
+  letter-spacing: .4rem;
 }
 
 .contact-form {

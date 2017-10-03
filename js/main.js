@@ -34,7 +34,10 @@ function initializeCarousels() {
           items: 1
         },
         500: {
-          items: 3
+          items: 1
+        },
+        800: {
+          items: 2
         }
       }
   });

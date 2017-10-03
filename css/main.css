@@ -701,10 +701,13 @@ button.full-width, .button.full-width {
   .projects-content h3 {
     text-align: center;
   }
+  .section-projects {
+    max-width: 650px;
+  }
 }
 
 @media only screen and (max-width:600px) {
-  .section-work-exp h1 {
+  .section-projects h1 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }

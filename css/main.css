@@ -311,6 +311,7 @@ button.full-width, .button.full-width {
   text-align: left;
   padding-left: 13rem;
   color: #000000;
+  letter-spacing: .15rem;
 }
 
 .button-section {
@@ -466,6 +467,7 @@ button.full-width, .button.full-width {
 
 #education .timeline-content p {
   color: #000000;
+  letter-spacing: .15rem;
 }
 
 #education .timeline-content h4 {
@@ -583,6 +585,7 @@ button.full-width, .button.full-width {
 .work-exp-content {
   max-width: 1200px;
   color: #000000;
+  letter-spacing: .15rem;
 }
 
 .work-exp-content h3 {
@@ -670,6 +673,7 @@ button.full-width, .button.full-width {
 
 .projects-content {
   max-width: 1200px;
+  letter-spacing: .15rem;
 }
 
 .projects-content h3 {
@@ -745,6 +749,7 @@ button.full-width, .button.full-width {
 .skill-content {
   max-width: 1200px;
   color: #000000;
+  letter-spacing: .15rem;
 }
 
 .skill-content h5{

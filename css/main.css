@@ -381,7 +381,6 @@ button.full-width, .button.full-width {
   min-height: 720px;
   display: table;
   position: relative;
-  text-align: center;
   padding-top: 12rem;
   padding-bottom: 12rem;
 }

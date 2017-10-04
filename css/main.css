@@ -458,6 +458,7 @@ button.full-width, .button.full-width {
 #education .timeline-header p {
   font-size: 1.6rem;
   color: #FFFFFF;
+  letter-spacing: .15rem;
 }
 
 #education .timeline-content {

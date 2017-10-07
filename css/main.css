@@ -201,11 +201,11 @@ button.full-width, .button.full-width {
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.intro-content h3 {
+.intro-content p {
   color: #f70777;
-  font-size: 2.3rem;
+  font-size: 3rem;
   line-height: 1.565;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -251,7 +251,7 @@ button.full-width, .button.full-width {
     font-size: 4.6rem;
     margin-bottom: .6rem;
   }
-  .intro-content h3 {
+  .intro-content p {
     font-size: 1.5rem;
     margin-bottom: .3rem;
     letter-spacing: .2rem;
@@ -285,7 +285,7 @@ button.full-width, .button.full-width {
   position: relative;
 }
 
-.section-intro h1 {
+.section-intro h2 {
   font-family: 'Merienda', cursive;
   color: #FF0077;
   line-height: 1.875;
@@ -349,7 +349,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-intro h1 {
+  .section-intro h2 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -390,7 +390,7 @@ button.full-width, .button.full-width {
   text-align: center;
 }
 
-#education .education-header h1 {
+#education .education-header h2 {
   font-family: 'Merienda', cursive;
   color: #FF0077;
   padding-bottom: 30px;
@@ -545,7 +545,7 @@ button.full-width, .button.full-width {
   }
 }
 @media only screen and (max-width:480px) {
-  #education .education-header h1 {
+  #education .education-header h2 {
     font-size: 2.2rem;
   }
   #education .timeline-wrap::before {
@@ -577,7 +577,7 @@ button.full-width, .button.full-width {
  margin-bottom: 1.8rem;
 }
 
-#work-exp .section-intro h1{
+#work-exp .section-intro h2 {
   font-family: 'Merienda', cursive;
   margin-bottom: 2rem;
   padding-bottom: 30px;
@@ -629,7 +629,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-work-exp h1 {
+  .section-work-exp h2 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -666,7 +666,7 @@ button.full-width, .button.full-width {
  margin-bottom: 1.8rem;
 }
 
-#projects .section-intro h1{
+#projects .section-intro h2 {
   font-family: 'Merienda', cursive;
   margin-bottom: 1.8rem;
   padding-bottom: 30px;
@@ -711,7 +711,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-projects h1 {
+  .section-projects h2 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -738,7 +738,7 @@ button.full-width, .button.full-width {
   position: relative;
 }
 
-.section-skills h1 {
+.section-skills h2 {
   font-family: 'Merienda', cursive;
   color: #FF0077;
   line-height: 1.875;
@@ -784,7 +784,7 @@ button.full-width, .button.full-width {
 }
 
 @media only screen and (max-width:600px) {
-  .section-skills h1 {
+  .section-skills h2 {
     font-size: 1.5rem;
     letter-spacing: .3rem;
   }
@@ -798,7 +798,7 @@ button.full-width, .button.full-width {
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
-#contact .section-intro h1 {
+#contact .section-intro h2 {
 	font-family: 'Merienda', cursive;
   color: #FF0077;
   line-height: 1.875;

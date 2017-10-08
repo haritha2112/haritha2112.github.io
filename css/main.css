@@ -595,10 +595,10 @@ button.full-width, .button.full-width {
   font-size: 2.5rem;
 }
 
-.work-exp-content h5 {
+.work-exp-content h4 {
   font-family: 'Patrick Hand SC', cursive;
   letter-spacing: .3rem;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .work-exp-list {

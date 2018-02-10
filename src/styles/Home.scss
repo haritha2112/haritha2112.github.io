@@ -1,0 +1,139 @@
+.home {
+  background-image: url("images/home-background.jpg");
+  font-family: 'Lobster Two', cursive;
+  font-weight: bold;
+  color: white;
+
+  .content {
+    padding-left: 20px;
+
+    .salutation {
+      font-size: 6vw;
+      padding-top: 10vw;
+      margin-bottom: 20px;
+      width: 100%;
+      opacity: 0;
+      animation: appear 0.5s 7s forwards;
+    }
+
+    .description {
+      font-size: 20px;
+      width: 350px;
+      display: inline-block;
+      padding: 0 20px;
+      opacity: 0;
+      animation: appear 0.5s 9s forwards;
+    }
+
+    .display-picture {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: appear 0.5s 8s forwards;
+
+      img {
+        border: 10px solid pink;
+        border-radius: 100px;
+        width: 170px;
+      }
+    }
+  }
+
+  .dreamcatcher {
+    position: absolute;
+    width: 150px;
+  }
+
+  .dreamcatcher.dreamcatcher-1 {
+    right: 30%;
+
+    path {
+      fill-opacity: 0;
+      animation: draw 5s linear forwards, flicker 10s 3s linear forwards;
+    }
+  }
+
+  .dreamcatcher.dreamcatcher-2 {
+    right: 10%;
+
+    path {
+      fill-opacity: 0;
+      animation: draw 5s linear forwards, flicker 10s 3.5s linear forwards;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .content {
+      .salutation {
+        width: 50%;
+        text-align: center;
+      }
+
+      .display-picture {
+        display: block;
+        text-align: center;
+        width: 50%;
+      }
+
+      .description {
+        width: 50%;
+        margin-left: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .content {
+      padding-left: 0px;
+      .salutation {
+        font-size: 34px;
+      }
+
+      .description {
+        width: 50%;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .dreamcatcher.dreamcatcher-1 {
+      display: none;
+    }
+
+    .dreamcatcher.dreamcatcher-2 {
+      width: 16vw;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .dreamcatcher.dreamcatcher-2 {
+      display: none;
+    }
+    .content {
+      .salutation {
+        width: 100%
+      }
+
+      .display-picture {
+        width: 100%;
+      }
+
+      .description {
+        width: 100%;
+      }
+    }
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    90% {
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

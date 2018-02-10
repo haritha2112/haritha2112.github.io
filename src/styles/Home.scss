@@ -113,15 +113,18 @@
     }
     .content {
       .salutation {
-        width: 100%
+        width: 100%;
+        animation-delay: 0s;
       }
 
       .display-picture {
         width: 100%;
+        animation-delay: 1s;
       }
 
       .description {
-        width: 100%;
+        width: 85%;
+        animation-delay: 2s;
       }
     }
   }

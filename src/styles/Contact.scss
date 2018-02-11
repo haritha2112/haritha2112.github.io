@@ -6,7 +6,9 @@
     margin-top: 50px;
     font-size: 50px;
     color: white;
+    opacity: 0;
     font-family: 'Lobster Two', cursive;
+    animation: slide-from-top 0.5s ease-in forwards;
   }
   .notification {
     font-size: 16px;
@@ -18,7 +20,7 @@
     border-radius: 10px;
     padding: 10px;
     opacity: 0;
-    transition: opacity 0.5s ease-out;
+    transition: opacity 1s ease-out;
   }
   .notification.success {
     background-color: lightgreen;
@@ -33,6 +35,9 @@
   .contact-form {
     margin: 50px 0px;
     .form-field {
+      opacity: 0;
+      &:nth-child(odd) {animation: slide-from-left 1s 1s linear forwards;}
+      &:nth-child(even) {animation: slide-from-right 1s 1s linear forwards;}
       margin-top: 20px;
       input, textarea {
         font-family: 'Lobster Two';
@@ -88,6 +93,36 @@
   @keyframes fade-border-in {
     to {
       border-bottom-color: purple;
+    }
+  }
+  @keyframes slide-from-top {
+    from {
+      opacity: 0;
+      margin-top: -100px;
+    }
+    to {
+      opacity: 1;
+      margin-top: 50px;
+    }
+  }
+  @keyframes slide-from-left {
+    from {
+      opacity: 0;
+      margin-left: -500px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 0px;
+    }
+  }
+  @keyframes slide-from-right {
+    from {
+      opacity: 0;
+      margin-right: -500px;
+    }
+    to {
+      opacity: 1;
+      margin-right: 0px;
     }
   }
 }

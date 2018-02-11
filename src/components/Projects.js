@@ -73,7 +73,6 @@ export default class Projects extends Component {
   }
 
   render() {
-    console.log(this.state.isProjectClicked);
     return (
       <div className="main-content projects">
         {

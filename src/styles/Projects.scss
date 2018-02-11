@@ -1,8 +1,9 @@
 .projects {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("images/background1.jpg");
+  background-size: cover;
   font-family: 'Lobster Two', cursive;
   font-weight: bold;
   color: white;
-  background-color: black;
   display: flex;
   flex-wrap: wrap;
   .project {

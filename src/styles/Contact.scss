@@ -8,6 +8,28 @@
     color: white;
     font-family: 'Lobster Two', cursive;
   }
+  .notification {
+    font-size: 16px;
+    position: absolute;
+    width: 40%;
+    right: 0;
+    left: 70px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  .notification.success {
+    background-color: lightgreen;
+  }
+  .notification.error {
+    color: white;
+    background-color: #aa0044;
+  }
+  .notification.visible {
+    opacity: 1;
+  }
   .contact-form {
     margin: 50px 0px;
     .form-field {
@@ -47,6 +69,10 @@
     }
   }
   @media screen and (max-width: 700px) {
+    .notification {
+      width: 60%;
+      left: 0px;
+    }
     .contact-form {
       .form-field {
         input, textarea {

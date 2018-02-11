@@ -197,7 +197,7 @@ export default class Skills extends Component {
           <span className="braces">
             &nbsp;{"<"}&nbsp;&nbsp;
           </span>
-          <div class="animated-words">
+          <div className="animated-words">
             <span>Front-End</span>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UI</span>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UX</span>

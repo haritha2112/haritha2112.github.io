@@ -7,7 +7,6 @@
     font-size: 50px;
     color: white;
     opacity: 0;
-    font-family: 'Lobster Two', cursive;
     animation: slide-from-top 0.5s ease-in forwards;
   }
   .notification {
@@ -40,7 +39,6 @@
       &:nth-child(even) {animation: slide-from-right 1s 1s linear forwards;}
       margin-top: 20px;
       input, textarea {
-        font-family: 'Lobster Two';
         font-size: 20px;
         width: 50%;
         background-color: #191919;

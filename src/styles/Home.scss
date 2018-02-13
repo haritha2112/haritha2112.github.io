@@ -43,7 +43,7 @@
 
   .dreamcatcher {
     position: absolute;
-    width: 150px;
+    width: 22vh;
   }
 
   .dreamcatcher.dreamcatcher-1 {
@@ -100,17 +100,21 @@
 
   @media screen and (max-width: 900px) {
     .dreamcatcher.dreamcatcher-1 {
-      display: none;
+      width: 14vh;
     }
 
     .dreamcatcher.dreamcatcher-2 {
-      width: 16vw;
+      width: 16vh;
     }
   }
 
   @media screen and (max-width: 500px) {
+    .dreamcatcher.dreamcatcher-1 {
+      width: 4vh;
+      right: 85%;
+    }
     .dreamcatcher.dreamcatcher-2 {
-      display: none;
+      width: 4vh;
     }
     .content {
       .salutation {

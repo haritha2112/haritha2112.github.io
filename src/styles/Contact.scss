@@ -1,11 +1,9 @@
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("images/background1.jpg");
-  background-size: cover;
   text-align: center;
   .message {
     margin-top: 50px;
     font-size: 50px;
-    color: white;
+    color: black;
     opacity: 0;
     animation: slide-from-top 0.5s ease-in forwards;
   }
@@ -39,6 +37,7 @@
       &:nth-child(even) {animation: slide-from-right 1s 1s linear forwards;}
       margin-top: 20px;
       input, textarea {
+        font-family: 'Forum', cursive;
         font-size: 20px;
         width: 50%;
         background-color: #191919;

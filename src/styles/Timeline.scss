@@ -4,7 +4,7 @@
     padding: 30px;
   	&::before {
   		content: "";
-  		background: #FF4081;
+      background: black;
   		width: 5px;
   		height: 95%;
   		position: absolute;
@@ -90,7 +90,7 @@
   .timeline-img {
     width: 30px;
     height: 27px;
-    background: purple;
+    background: black;
     border-radius: 50%;
     position: absolute;
     left: 50%;

@@ -46,7 +46,7 @@
           top: 30px;
           left: -15px;
           border-width: 10px 15px 10px 0;
-          border-color: transparent white transparent transparent;
+          border-color: transparent black transparent transparent;
 
         }
       }
@@ -83,7 +83,7 @@
   		top: 30px;
   		right: -15px;
   		border-width: 10px 0 10px 15px;
-  		border-color: transparent transparent transparent white;
+  		border-color: transparent transparent transparent black;
   	}
   }
 
@@ -113,8 +113,9 @@
 
   .timeline-item {
     .timeline-img-header {
-      background-size: cover;
-      height: 200px;
+      background-size: cover !important;
+      background-position: center !important;
+      height: 270px;
     	position: relative;
     	margin-bottom: 20px;
     	h2 {
@@ -135,12 +136,14 @@
   }
 
   .date.start-date {
-    background: green;
+    background: #00b700;
     left: 0;
+    border-bottom-right-radius: 10px;
   }
   .date.end-date {
-    background: red;
+    background: #cc0000;
     right: 0;
+    border-bottom-left-radius: 10px;
   }
 
 
@@ -175,7 +178,7 @@
   						top: 30px;
   						left: -15px;
   						border-width: 10px 15px 10px 0;
-  						border-color: transparent white transparent transparent;
+  						border-color: transparent black transparent transparent;
   					}
   				}
   			}

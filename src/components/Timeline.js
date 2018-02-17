@@ -17,6 +17,11 @@ export default class Timeline extends Component {
                     </div>
                     <div className="date start-date">{data.startDate}</div>
                     <div className="date end-date">{data.endDate}</div>
+                    {
+                      data.descriptionHighlight && (
+                        <p><strong><i>{data.descriptionHighlight}</i></strong></p>
+                      )
+                    }
                     <p>{data.description}</p>
                   </div>
                 </div>

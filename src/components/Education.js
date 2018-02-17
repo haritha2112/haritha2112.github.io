@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import Timeline from "./Timeline";
+import clemsonImage from "../images/clemson-university.jpg";
+import srmImage from "../images/srm-university.jpg";
+import udacityImage from "../images/udacity.png";
 
 export default class Education extends Component {
   constructor() {
@@ -8,31 +11,26 @@ export default class Education extends Component {
       data: [
         {
           title: "Front-End Web Developer Nanodegree | Udacity",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.",
-          startDate: "1 Jan 2018",
+          description: "I am currently enrolled in this fun course which has not only helped me learn the latest tools and techniques for Front-End Devlopement but has also taught me how to follow best-practices and code according to industry standards.",
+          startDate: "21 Dec 2017",
           endDate: "Current",
-          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("+"'https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a'"+") center center no-repeat"
+          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+udacityImage+"')"
         },
         {
-          title: "Masters Degree | Clemson University",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.",
-          startDate: "1 Jan 2018",
-          endDate: "1 Jan 2018",
-          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("+"'https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a'"+") center center no-repeat"
+          title: "Master's Degree | Clemson University",
+          description: "Clemson Univeristy has served as a strong platform to help me realise my dreams of becoming a software developer. I have had the oppertunity to learn from some of the brightest minds working in this field, and will be graduating in May 2018.",
+          startDate: "17 Aug 2016",
+          endDate: "Current",
+          descriptionHighlight: "CGPA - 3.42",
+          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+clemsonImage+"')"
         },
         {
-          title: "Bachelors Degree | SRM University",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.",
-          startDate: "1 Jan 2018",
-          endDate: "1 Jan 2018",
-          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("+"'https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a'"+") center center no-repeat"
-        },
-        {
-          title: "Schooling | P.S Senior Secondary School",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.",
-          startDate: "1 Jan 2018",
-          endDate: "1 Jan 2018",
-          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("+"'https://hd.unsplash.com/photo-1466840787022-48e0ec048c8a'"+") center center no-repeat"
+          title: "Bachelor's Degree | SRM University",
+          description: "My undergraduate education at SRM University exposed me to the numerous fields that Software Engineering encompasses. It was here that my fascination for web development began, when I created my first web-application - an online eBook reader. I recall spending hours working on perfecting the design and aesthetics of the website.",
+          startDate: "8 Aug 2012",
+          endDate: "28 May 2016",
+          descriptionHighlight: "CGPA - 3.72",
+          image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+srmImage+"')"
         }
       ]
     }

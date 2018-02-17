@@ -10,16 +10,17 @@ export default class Home extends Component {
         <DreamCatcher2/>
         <div className="content">
           <div className="salutation">
-            Hi, <br/> I'm Haritha
+            Hello!
           </div>
           <div className="display-picture">
             <img src={displayPicture} />
           </div>
           <div className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat.
+            I am Haritha, a web developer from Clemson, South Carolina. I am
+            passionate about beautiful design and love building creative,
+            elegant and user-friendly websites. <br/> I am graduating this
+            summer with a Master's degree in Software Engineering and am
+            looking for some awesome people to work with.
           </div>
         </div>
       </div>

@@ -16,17 +16,18 @@
 
     .description {
       font-size: 20px;
-      width: 350px;
+      width: 305px;
       display: inline-block;
       padding: 0 20px;
       opacity: 0;
       animation: appear 0.5s 9s forwards;
+      text-align: justify;
     }
 
     .display-picture {
       display: inline-block;
       vertical-align: top;
-      margin-bottom: 20px;
+      margin: 20px 0;
       opacity: 0;
       animation: appear 0.5s 8s forwards;
 
@@ -75,8 +76,9 @@
       }
 
       .description {
-        width: 50%;
+        width: 45%;
         margin-left: 0;
+        text-align: center;
       }
     }
   }

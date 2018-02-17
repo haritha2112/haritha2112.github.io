@@ -1,7 +1,8 @@
 import React, {Component} from "react";
+import FontAwesome from "react-fontawesome";
 import html5Logo from "../images/html5-logo.png";
 import css3Logo from "../images/css3-logo.png";
-import javascriptLogo from "../images/javascript-logo.jpg";
+import javascriptLogo from "../images/javascript-logo.svg";
 import bootstrapLogo from "../images/bootstrap-logo.png";
 import chaiLogo from "../images/chai-logo.png";
 import cppLogo from "../images/cpp-logo.png";
@@ -13,7 +14,8 @@ import mysqlLogo from "../images/mysql-logo.png";
 import phpLogo from "../images/php-logo.png";
 import reactLogo from "../images/react-logo.png";
 import reduxLogo from "../images/redux-logo.png";
-import uikitLogo from "../images/uikit-logo.jpg";
+import sassLogo from "../images/sass-logo.png";
+import uikitLogo from "../images/uikit-logo.svg";
 
 export default class Skills extends Component {
   constructor() {
@@ -24,77 +26,82 @@ export default class Skills extends Component {
           name: "Bootstrap",
           image: bootstrapLogo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "Chai.js",
           image: chaiLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "C++",
           image: cppLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "CSS3",
           image: css3Logo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "Git",
           image: gitLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "HTML5",
           image: html5Logo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "Adobe Indesign",
           image: indesignLogo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "JavaScript",
           image: javascriptLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "Jira",
           image: jiraLogo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "Mocha",
           image: mochaLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "MySQL",
           image: mysqlLogo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
         }, {
           name: "PHP",
           image: phpLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "React.js",
           image: reactLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }, {
           name: "Redux",
           image: reduxLogo,
           radius: 40,
-          color: "#000000"
+          color: "#fff"
+        }, {
+          name: "Sass",
+          image: sassLogo,
+          radius: 40,
+          color: "#fff"
         }, {
           name: "UIKit",
           image: uikitLogo,
           radius: 40,
-          color: "#000000"
+          color: "#404040"
         }
       ]
     }
@@ -158,13 +165,13 @@ export default class Skills extends Component {
     node.append("image").data(data.slice(1)).attr("xlink:href", (d) => {
       return d.image;
     }).attr("x", (d) => {
-      return -d.radius + (d.radius / 2);
+      return -d.radius + (d.radius / 2) - 5;
     }).attr("y", (d) => {
-      return -d.radius + (d.radius / 2);
+      return -d.radius + (d.radius / 2) - 5;
     }).attr("width", (d) => {
-      return d.radius;
+      return d.radius + 10;
     }).attr("height", (d) => {
-      return d.radius;
+      return d.radius + 10;
     });
 
     resize();
@@ -211,7 +218,18 @@ export default class Skills extends Component {
           </span>
         </div>
         <div className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          As an aspiring Front-End / UI / UX developer, I have always strived
+          to stay up to date with the technological trends in these fields. I
+          am skilled at designing responsive websites that conform to the
+          ADA web accessibilty guidelines using HTML5, CSS3, JavaScript and
+          a wide range of JavaScript libraries that are used for building and
+          testing web applications. Additionally, I have some experience
+          working with CSS pre-processors and front-end frameworks. I have
+          also acquired experience in full-stack developement using the
+          LAMP Stack.
+          <br/><br/>
+          Go ahead. Play around with my skills below.
+          &nbsp;<FontAwesome name="hand-peace-o" />
         </div>
       </div>
       <div id="skills-chart" className="chart"></div>

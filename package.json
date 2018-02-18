@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/haritha2112/haritha2112.github.io#readme",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --config ./webpack.config.js"
+    "start": "webpack-dev-server --progress --colors --config ./webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
   },
   "babel": {
     "presets": [

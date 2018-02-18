@@ -1,0 +1,146 @@
+.home {
+  font-weight: bold;
+  color: black;
+
+  .content {
+    padding-left: 20px;
+
+    .salutation {
+      font-size: 6vw;
+      padding-top: 10vw;
+      margin-bottom: 20px;
+      width: 100%;
+      opacity: 0;
+      animation: appear 0.5s 7s forwards;
+    }
+
+    .description {
+      font-size: 20px;
+      width: 305px;
+      display: inline-block;
+      padding: 0 20px;
+      opacity: 0;
+      animation: appear 0.5s 9s forwards;
+      text-align: justify;
+    }
+
+    .display-picture {
+      display: inline-block;
+      vertical-align: top;
+      margin: 20px 0;
+      opacity: 0;
+      animation: appear 0.5s 8s forwards;
+
+      img {
+        border: 5px solid black;
+        border-radius: 100px;
+        width: 170px;
+      }
+    }
+  }
+
+  .dreamcatcher {
+    position: absolute;
+    width: 22vh;
+  }
+
+  .dreamcatcher.dreamcatcher-1 {
+    right: 30%;
+
+    path {
+      fill-opacity: 0;
+      animation: draw 5s linear forwards, flicker 10s 3s linear forwards;
+    }
+  }
+
+  .dreamcatcher.dreamcatcher-2 {
+    right: 10%;
+
+    path {
+      fill-opacity: 0;
+      animation: draw 5s linear forwards, flicker 10s 3.5s linear forwards;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .content {
+      .salutation {
+        width: 50%;
+        text-align: center;
+      }
+
+      .display-picture {
+        display: block;
+        text-align: center;
+        width: 50%;
+      }
+
+      .description {
+        width: 45%;
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .content {
+      padding-left: 0px;
+      .salutation {
+        font-size: 34px;
+      }
+
+      .description {
+        width: 50%;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .dreamcatcher.dreamcatcher-1 {
+      width: 14vh;
+    }
+
+    .dreamcatcher.dreamcatcher-2 {
+      width: 16vh;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .dreamcatcher.dreamcatcher-1 {
+      width: 4vh;
+      right: 85%;
+    }
+    .dreamcatcher.dreamcatcher-2 {
+      width: 4vh;
+    }
+    .content {
+      .salutation {
+        width: 100%;
+        animation-delay: 0s;
+      }
+
+      .display-picture {
+        width: 100%;
+        animation-delay: 1s;
+      }
+
+      .description {
+        width: 85%;
+        animation-delay: 2s;
+      }
+    }
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    90% {
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

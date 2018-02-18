@@ -1,0 +1,75 @@
+.skills {
+  font-weight: bold;
+  color: black;
+  .content {
+    width: 100%;
+    display: inline-block;
+    .title {
+      position: relative;
+      font-size: 40px;
+      text-align: center;
+      padding: 20px;
+      .braces {
+        &:nth-child(4) {margin-left: 155px;}
+      }
+      .animated-words {
+        display: inline-block;
+        vertical-align: text-top;
+        span {
+          position: absolute;
+          &:nth-child(2) {animation-delay: 2s;}
+          &:nth-child(3) {animation-delay: 4s;}
+          &:nth-child(4) {animation-delay: 6s;}
+          opacity: 0;
+          overflow: hidden;
+          animation: animateWord 8s linear infinite;
+        }
+      }
+    }
+    .description {
+      padding: 60px 130px;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+  .chart {
+    width: 100%;
+  }
+  @media screen and (max-width: 700px) {
+    .content {
+      .title {
+        .static-words {
+          display: block;
+        }
+        .braces {
+          display: inline-block;
+        }
+      }
+      .description {
+        padding: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .content {
+      .title {
+        font-size: 30px;
+        .braces {
+          &:nth-child(4) {margin-left: 115px;}
+        }
+      }
+      .description {
+        font-size: 18px;
+      }
+    }
+  }
+  @keyframes animateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; transform: translateY(-100px); }
+    5% { opacity: 1; transform: translateY(0px);}
+    17% { opacity: 1; transform: translateY(0px); }
+    20% { opacity: 0; transform: translateY(100px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+}

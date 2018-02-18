@@ -52,8 +52,8 @@
         }
       }
       .back {
-        background-color: purple;
-        font-family: Helvetica;
+        background-color: #b0757533;
+        color: black;
         z-index: 2;
         transform: rotateY(180deg);
         line-height: 1.3em;
@@ -65,12 +65,8 @@
         .tech-stack {
           padding: 20px;
           font-size: 14px;
-          font-weight: 200;
+          font-weight: 700;
           text-transform: uppercase;
-        }
-        a {
-          font-size: 12px;
-          color: white;
         }
       }
     }

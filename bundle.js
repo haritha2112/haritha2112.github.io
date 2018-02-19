@@ -24639,7 +24639,7 @@ var NavBar = function (_Component) {
               } },
             _react2.default.createElement(
               "a",
-              { href: "https://linkedin.com/in/haritharathinakumar2161825", target: "_blank" },
+              { href: "https://www.linkedin.com/in/rharitha/", target: "_blank" },
               _react2.default.createElement(_reactFontawesome2.default, { name: "linkedin" })
             ),
             _react2.default.createElement(

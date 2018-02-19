@@ -92,7 +92,7 @@ export default class NavBar extends Component {
             <p>Github</p>
           </div>
           <div className="nav-icon" onClick={() => this.closeNavbar()}>
-            <a href="https://linkedin.com/in/haritharathinakumar2161825" target="_blank">
+            <a href="https://www.linkedin.com/in/rharitha/" target="_blank">
               <FontAwesome name="linkedin" />
             </a>
             <p>Linkedin</p>

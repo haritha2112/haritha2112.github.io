@@ -97,19 +97,19 @@ export default class Contact extends Component {
               <input type="text" name="_gotcha" style={{"display": "none"}} />
             </div>
             <div className="form-field">
-              <input type="text" placeholder="Your Name" required value={this.state.name} onChange={this.handleNameChange} />
+              <input type="text" placeholder="Your Name" required value={this.state.name} onChange={this.handleNameChange} description="A text field to enter your name" />
             </div>
             <div className="form-field">
-              <input type="email" placeholder="Your Email ID" required value={this.state.email} onChange={this.handleEmailChange} />
+              <input type="email" placeholder="Your Email ID" required value={this.state.email} onChange={this.handleEmailChange} description="A text field to enter your email ID" />
             </div>
             <div className="form-field">
-              <input type="text" placeholder="Subject" required value={this.state.subject} onChange={this.handleSubjectChange} />
+              <input type="text" placeholder="Subject" required value={this.state.subject} onChange={this.handleSubjectChange} description="A text field to enter the subject of your message" />
             </div>
             <div className="form-field">
-              <textarea placeholder="Message" rows="10" required value={this.state.message} onChange={this.handleMessageChange} />
+              <textarea placeholder="Message" rows="10" required value={this.state.message} onChange={this.handleMessageChange} description="A text field to enter your message" />
             </div>
             <div className="form-field">
-              <input type="submit" className="submitform" value="Send Message"></input>
+              <input type="submit" className="submitform" value="Send Message" description="A button to submit the form" />
             </div>
           </form>
         </div>

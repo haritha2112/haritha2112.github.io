@@ -13,7 +13,7 @@ export default class Home extends Component {
             Hello!
           </div>
           <div className="display-picture">
-            <img src={displayPicture} />
+            <img src={displayPicture} alt="Haritha's display picture" />
           </div>
           <div className="description">
             I am Haritha, a web developer from Clemson, South Carolina. I am

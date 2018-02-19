@@ -24745,7 +24745,7 @@ var Home = function (_Component) {
           _react2.default.createElement(
             "div",
             { className: "display-picture" },
-            _react2.default.createElement("img", { src: _dp2.default })
+            _react2.default.createElement("img", { src: _dp2.default, alt: "Haritha's display picture" })
           ),
           _react2.default.createElement(
             "div",
@@ -25565,13 +25565,13 @@ var Experience = function (_Component) {
     _this.state = {
       data: [{
         title: "Full Stack Developer | National Bricks Research Center",
-        description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible designing and implementing features to help the researchers perform their day to day tasks with ease.",
+        description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible for designing and implementing features to help the researchers perform their day to day tasks with ease.",
         startDate: "15 Jan 2018",
         endDate: "Current",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _nationalBricksResearchCenter2.default + "')"
       }, {
         title: "Web Developer Intern | ART.COM",
-        description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
+        description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
         startDate: "5 Jun 2017",
         endDate: "18 Aug 2017",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _artDotCom2.default + "')"
@@ -25991,27 +25991,27 @@ var Contact = function (_Component) {
             _react2.default.createElement(
               "div",
               { className: "form-field" },
-              _react2.default.createElement("input", { type: "text", placeholder: "Your Name", required: true, value: this.state.name, onChange: this.handleNameChange })
+              _react2.default.createElement("input", { type: "text", placeholder: "Your Name", required: true, value: this.state.name, onChange: this.handleNameChange, description: "A text field to enter your name" })
             ),
             _react2.default.createElement(
               "div",
               { className: "form-field" },
-              _react2.default.createElement("input", { type: "email", placeholder: "Your Email ID", required: true, value: this.state.email, onChange: this.handleEmailChange })
+              _react2.default.createElement("input", { type: "email", placeholder: "Your Email ID", required: true, value: this.state.email, onChange: this.handleEmailChange, description: "A text field to enter your email ID" })
             ),
             _react2.default.createElement(
               "div",
               { className: "form-field" },
-              _react2.default.createElement("input", { type: "text", placeholder: "Subject", required: true, value: this.state.subject, onChange: this.handleSubjectChange })
+              _react2.default.createElement("input", { type: "text", placeholder: "Subject", required: true, value: this.state.subject, onChange: this.handleSubjectChange, description: "A text field to enter the subject of your message" })
             ),
             _react2.default.createElement(
               "div",
               { className: "form-field" },
-              _react2.default.createElement("textarea", { placeholder: "Message", rows: "10", required: true, value: this.state.message, onChange: this.handleMessageChange })
+              _react2.default.createElement("textarea", { placeholder: "Message", rows: "10", required: true, value: this.state.message, onChange: this.handleMessageChange, description: "A text field to enter your message" })
             ),
             _react2.default.createElement(
               "div",
               { className: "form-field" },
-              _react2.default.createElement("input", { type: "submit", className: "submitform", value: "Send Message" })
+              _react2.default.createElement("input", { type: "submit", className: "submitform", value: "Send Message", description: "A button to submit the form" })
             )
           )
         )

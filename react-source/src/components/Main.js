@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter, Route, Redirect} from "react-router-dom";
+import {HashRouter, Route, Redirect} from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Skills from "./Skills";
@@ -11,7 +11,7 @@ import Contact from "./Contact";
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="main">
           <NavBar />
           <Route exact path="/" render={() => (<Redirect to="/home"/>)} />
@@ -22,7 +22,7 @@ export default class Main extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
         </div>
-    </BrowserRouter>
+    </HashRouter>
     )
   }
 }

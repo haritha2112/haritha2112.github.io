@@ -11,14 +11,14 @@ export default class Experience extends Component {
       data: [
         {
           title: "Full Stack Developer | National Bricks Research Center",
-          description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible designing and implementing features to help the researchers perform their day to day tasks with ease.",
+          description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible for designing and implementing features to help the researchers perform their day to day tasks with ease.",
           startDate: "15 Jan 2018",
           endDate: "Current",
           image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+nbrcImage+"')"
         },
         {
           title: "Web Developer Intern | ART.COM",
-          description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
+          description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
           startDate: "5 Jun 2017",
           endDate: "18 Aug 2017",
           image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+artDotComImage+"')"

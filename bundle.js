@@ -20726,7 +20726,7 @@ var Main = function (_Component) {
     key: "render",
     value: function render() {
       return _react2.default.createElement(
-        _reactRouterDom.BrowserRouter,
+        _reactRouterDom.HashRouter,
         null,
         _react2.default.createElement(
           "div",

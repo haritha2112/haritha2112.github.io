@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import axios from "axios";
+import FontAwesome from "react-fontawesome";
 
 export default class Contact extends Component {
   constructor() {
@@ -50,6 +51,13 @@ export default class Contact extends Component {
       this.showSuccessMessage();
     }).catch((error) => {
       this.showErrorMessage();
+    }).finally(() => {
+      this.setState({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      });
     });
   }
 
@@ -77,10 +85,10 @@ export default class Contact extends Component {
         </div>
         <div className="notifications">
           <div className={"notification success " + this.state.successNotificationVisible}>
-            Your message has been sent. I'll reach out to you shortly. ^_^
+            Your message has been sent. I'll reach out to you shortly. <FontAwesome name="smile-o" />
           </div>
           <div className={"notification error " + this.state.errorNotificationVisible}>
-            Oops! Something went wrong. 0_0
+            Oops! Something went wrong. Could you please try later? <FontAwesome name="frown-o" />
           </div>
         </div>
         <div className="contact-form">

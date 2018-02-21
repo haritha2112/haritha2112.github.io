@@ -25577,7 +25577,7 @@ var Experience = function (_Component) {
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _artDotCom2.default + "')"
       }, {
         title: "Trainee | Oil and Natural Gas Corporation of India",
-        description: "It was a very memorable experience working at ONGC as this was the first time I worked with a team of industrial professionals. I got the oppertunity to work with the Info-Com department here, where I designed a dynamic Organogram (A flowchart-like visualization of the organization's hierarchy) for them. The tool was built on the LAMP stack.",
+        description: "It was a very memorable experience working at ONGC as this was the first time I worked with a team of industrial professionals. I got the opportunity to work with the Info-Com department here, where I designed a dynamic Organogram (A flowchart-like visualization of the organization's hierarchy) for them. The tool was built on the LAMP stack.",
         startDate: "8 Dec 2014",
         endDate: "26 Dec 2014",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _ongc2.default + "')"

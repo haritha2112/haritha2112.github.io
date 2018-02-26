@@ -18,13 +18,13 @@ export default class Experience extends Component {
         },
         {
           title: "Web Developer Intern | ART.COM",
-          description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
+          description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learned about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
           startDate: "5 Jun 2017",
           endDate: "18 Aug 2017",
           image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+artDotComImage+"')"
         },
         {
-          title: "Trainee | Oil and Natural Gas Corporation of India",
+          title: "Web Developer Intern | Oil and Natural Gas Corporation of India",
           description: "It was a very memorable experience working at ONGC as this was the first time I worked with a team of industrial professionals. I got the opportunity to work with the Info-Com department here, where I designed a dynamic Organogram (A flowchart-like visualization of the organization's hierarchy) for them. The tool was built on the LAMP stack.",
           startDate: "8 Dec 2014",
           endDate: "26 Dec 2014",

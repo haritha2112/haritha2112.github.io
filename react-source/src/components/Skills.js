@@ -221,11 +221,11 @@ export default class Skills extends Component {
           As an aspiring Front-End / UI / UX developer, I have always strived
           to stay up to date with the technological trends in these fields. I
           am skilled at designing responsive websites that conform to the
-          ADA web accessibilty guidelines using HTML5, CSS3, JavaScript and
+          ADA web accessibility guidelines using HTML5, CSS3, JavaScript and
           a wide range of JavaScript libraries that are used for building and
           testing web applications. Additionally, I have some experience
           working with CSS pre-processors and front-end frameworks. I have
-          also acquired experience in full-stack developement using the
+          also acquired experience in full-stack development using the
           LAMP Stack.
           <br/><br/>
           Go ahead. Play around with my skills below.

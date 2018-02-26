@@ -24684,7 +24684,7 @@ module.exports = exports['default'];
 /* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "src/files/resume.2973376e2f76a8f8192f057b73ac6f85.pdf";
+module.exports = __webpack_require__.p + "src/files/resume.7f5e4e1c23da118a1e022f4fb69adc71.pdf";
 
 /***/ }),
 /* 90 */
@@ -25291,7 +25291,7 @@ var Skills = function (_Component) {
           _react2.default.createElement(
             "div",
             { className: "description" },
-            "As an aspiring Front-End / UI / UX developer, I have always strived to stay up to date with the technological trends in these fields. I am skilled at designing responsive websites that conform to the ADA web accessibilty guidelines using HTML5, CSS3, JavaScript and a wide range of JavaScript libraries that are used for building and testing web applications. Additionally, I have some experience working with CSS pre-processors and front-end frameworks. I have also acquired experience in full-stack developement using the LAMP Stack.",
+            "As an aspiring Front-End / UI / UX developer, I have always strived to stay up to date with the technological trends in these fields. I am skilled at designing responsive websites that conform to the ADA web accessibility guidelines using HTML5, CSS3, JavaScript and a wide range of JavaScript libraries that are used for building and testing web applications. Additionally, I have some experience working with CSS pre-processors and front-end frameworks. I have also acquired experience in full-stack development using the LAMP Stack.",
             _react2.default.createElement("br", null),
             _react2.default.createElement("br", null),
             "Go ahead. Play around with my skills below. \xA0",
@@ -25456,20 +25456,20 @@ var Education = function (_Component) {
     _this.state = {
       data: [{
         title: "Front-End Web Developer Nanodegree | Udacity",
-        description: "I am currently enrolled in this fun course which has not only helped me learn the latest tools and techniques for Front-End Devlopement but has also taught me how to follow best-practices and code according to industry standards.",
+        description: "I am currently enrolled in this fun course which has not only helped me learn the latest tools and techniques for Front-End Development but has also taught me how to follow best-practices and code according to industry standards.",
         startDate: "21 Dec 2017",
         endDate: "Current",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _udacity2.default + "')"
       }, {
         title: "Master's Degree | Clemson University",
-        description: "Clemson Univeristy has served as a strong platform to help me realise my dreams of becoming a software developer. I have had the oppertunity to learn from some of the brightest minds working in this field, and will be graduating in May 2018.",
+        description: "Clemson University has served as a strong platform to help me realise my dreams of becoming a software developer. I have had the opportunity to learn from some of the brightest minds working in this field and will be graduating in May 2018.",
         startDate: "17 Aug 2016",
         endDate: "Current",
         descriptionHighlight: "CGPA - 3.42",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _clemsonUniversity2.default + "')"
       }, {
         title: "Bachelor's Degree | SRM University",
-        description: "My undergraduate education at SRM University exposed me to the numerous fields that Software Engineering encompasses. It was here that my fascination for web development began, when I created my first web-application - an online eBook reader. I recall spending hours working on perfecting the design and aesthetics of the website.",
+        description: "My undergraduate education at SRM University exposed me to the numerous fields that Software Engineering encompasses. It was here that my fascination for web development began when I created my first web-application - an online eBook reader. I recall spending hours working on perfecting the design and aesthetics of the website.",
         startDate: "8 Aug 2012",
         endDate: "28 May 2016",
         descriptionHighlight: "CGPA - 3.72",
@@ -25571,12 +25571,12 @@ var Experience = function (_Component) {
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _nationalBricksResearchCenter2.default + "')"
       }, {
         title: "Web Developer Intern | ART.COM",
-        description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learnt about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
+        description: "I worked as web developer intern at this California based company. During my time here, I got the opportunity to participate in their on-going agile development activities and implemented several features to enhance the user-experience on their mobile platform. It was here that I learned about various modern tools that are part of the current web development ecosystem such as React.js, Webpack, Stylus, Mocha, Chai etc.",
         startDate: "5 Jun 2017",
         endDate: "18 Aug 2017",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _artDotCom2.default + "')"
       }, {
-        title: "Trainee | Oil and Natural Gas Corporation of India",
+        title: "Web Developer Intern | Oil and Natural Gas Corporation of India",
         description: "It was a very memorable experience working at ONGC as this was the first time I worked with a team of industrial professionals. I got the opportunity to work with the Info-Com department here, where I designed a dynamic Organogram (A flowchart-like visualization of the organization's hierarchy) for them. The tool was built on the LAMP stack.",
         startDate: "8 Dec 2014",
         endDate: "26 Dec 2014",

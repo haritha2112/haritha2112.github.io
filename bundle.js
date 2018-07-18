@@ -24426,9 +24426,9 @@ var _reactFontawesome = __webpack_require__(14);
 
 var _reactFontawesome2 = _interopRequireDefault(_reactFontawesome);
 
-var _resume = __webpack_require__(89);
+var _Resume = __webpack_require__(89);
 
-var _resume2 = _interopRequireDefault(_resume);
+var _Resume2 = _interopRequireDefault(_Resume);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24603,7 +24603,7 @@ var NavBar = function (_Component) {
               } },
             _react2.default.createElement(
               "a",
-              { href: _resume2.default, target: "_blank" },
+              { href: _Resume2.default, target: "_blank" },
               _react2.default.createElement(_reactFontawesome2.default, { name: "file" })
             ),
             _react2.default.createElement(
@@ -24684,7 +24684,7 @@ module.exports = exports['default'];
 /* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "src/files/resume.5754e52c1a2b1941d4b3bf7f40314952.pdf";
+module.exports = __webpack_require__.p + "src/files/Resume.38d60f3b6efff13a7b47b5d6595447c2.pdf";
 
 /***/ }),
 /* 90 */
@@ -24750,9 +24750,11 @@ var Home = function (_Component) {
           _react2.default.createElement(
             "div",
             { className: "description" },
-            "I am Haritha, a web developer from Clemson, South Carolina. I am passionate about beautiful design and love building creative, elegant and user-friendly websites. ",
+            "I am Haritha, a web developer. I am passionate about beautiful design and love building creative, elegant and user-friendly websites. ",
             _react2.default.createElement("br", null),
-            " I am graduating this summer with a Master's degree in Software Engineering and am looking for some awesome people to work with."
+            " ",
+            _react2.default.createElement("br", null),
+            " I graduated this summer with a Master's degree in Computer Science and am looking for some awesome people to work with."
           )
         )
       );
@@ -25464,8 +25466,8 @@ var Education = function (_Component) {
         title: "Master's Degree | Clemson University",
         description: "Clemson University has served as a strong platform to help me realise my dreams of becoming a software developer. I have had the opportunity to learn from some of the brightest minds working in this field and will be graduating in May 2018.",
         startDate: "17 Aug 2016",
-        endDate: "Current",
-        descriptionHighlight: "CGPA - 3.42",
+        endDate: "10 May 2018",
+        descriptionHighlight: "CGPA - 3.48",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _clemsonUniversity2.default + "')"
       }, {
         title: "Bachelor's Degree | SRM University",
@@ -25565,9 +25567,9 @@ var Experience = function (_Component) {
     _this.state = {
       data: [{
         title: "Full Stack Developer | National Bricks Research Center",
-        description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible for designing and implementing features to help the researchers perform their day to day tasks with ease.",
+        description: "As the sole developer, I was responsible for maintaining and revamping the existing system built on the LAMP Stack to accommodate new features. I designed multiple user-interfaces to expedite data-management activities, thus allowing the organization to perform day-to-day tasks more efficiently.",
         startDate: "15 Jan 2018",
-        endDate: "Current",
+        endDate: "30 Apr 2018",
         image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('" + _nationalBricksResearchCenter2.default + "')"
       }, {
         title: "Web Developer Intern | ART.COM",
@@ -25657,9 +25659,9 @@ var _memoryGame = __webpack_require__(123);
 
 var _memoryGame2 = _interopRequireDefault(_memoryGame);
 
-var _flashcards = __webpack_require__(124);
+var _myReads = __webpack_require__(124);
 
-var _flashcards2 = _interopRequireDefault(_flashcards);
+var _myReads2 = _interopRequireDefault(_myReads);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25705,10 +25707,10 @@ var Projects = function (_Component) {
         techStack: "HTML5 | CSS3 | JavaScript",
         backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + _memoryGame2.default + ")"
       }, {
-        name: "Flashcards",
-        description: "A web application for vocabulary flashcards. Allows users to create cards, organize them into decks, and run practice sessions.",
-        techStack: "Django | HTML5 | CSS3 | JavaScript",
-        backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + _flashcards2.default + ")"
+        name: "My Reads",
+        description: "A single page bookshelf web application that lets users select and categorize books that they have read, currently reading or want to read.",
+        techStack: "React.js | HTML5 | CSS3 | JavaScript",
+        backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + _myReads2.default + ")"
       }]
     };
     _this.getClickStatus = _this.getClickStatus.bind(_this);
@@ -25816,7 +25818,7 @@ module.exports = __webpack_require__.p + "src/images/memory-game.e24991eefe87b6c
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "src/images/flashcards.8f424bf16292909fe203e7581003c301.jpg";
+module.exports = __webpack_require__.p + "src/images/my-reads.81089ad907b6a8bf0da052940301a553.jpg";
 
 /***/ }),
 /* 125 */

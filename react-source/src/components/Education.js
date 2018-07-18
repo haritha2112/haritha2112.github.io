@@ -20,8 +20,8 @@ export default class Education extends Component {
           title: "Master's Degree | Clemson University",
           description: "Clemson University has served as a strong platform to help me realise my dreams of becoming a software developer. I have had the opportunity to learn from some of the brightest minds working in this field and will be graduating in May 2018.",
           startDate: "17 Aug 2016",
-          endDate: "Current",
-          descriptionHighlight: "CGPA - 3.42",
+          endDate: "10 May 2018",
+          descriptionHighlight: "CGPA - 3.48",
           image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+clemsonImage+"')"
         },
         {

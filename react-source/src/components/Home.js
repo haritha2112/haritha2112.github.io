@@ -16,10 +16,10 @@ export default class Home extends Component {
             <img src={displayPicture} alt="Haritha's display picture" />
           </div>
           <div className="description">
-            I am Haritha, a web developer from Clemson, South Carolina. I am
+            I am Haritha, a web developer. I am
             passionate about beautiful design and love building creative,
-            elegant and user-friendly websites. <br/> I am graduating this
-            summer with a Master's degree in Software Engineering and am
+            elegant and user-friendly websites. <br/> <br/> I graduated this
+            summer with a Master's degree in Computer Science and am
             looking for some awesome people to work with.
           </div>
         </div>

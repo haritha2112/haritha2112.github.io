@@ -4,7 +4,7 @@ import metubeImg from "../images/metube.jpg";
 import personalPortfolioImg from "../images/personal-portfolio.jpg";
 import myClemsonImg from "../images/myclemson-logo.png";
 import memoryGameImg from "../images/memory-game.png";
-import flashcardsImg from "../images/flashcards.jpg";
+import myReadsImg from "../images/my-reads.jpg";
 
 export default class Projects extends Component {
   constructor() {
@@ -45,10 +45,10 @@ export default class Projects extends Component {
           techStack: "HTML5 | CSS3 | JavaScript",
           backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("+memoryGameImg+")"
         }, {
-          name: "Flashcards",
-          description: "A web application for vocabulary flashcards. Allows users to create cards, organize them into decks, and run practice sessions.",
-          techStack: "Django | HTML5 | CSS3 | JavaScript",
-          backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("+flashcardsImg+")"
+          name: "My Reads",
+          description: "A single page bookshelf web application that lets users select and categorize books that they have read, currently reading or want to read.",
+          techStack: "React.js | HTML5 | CSS3 | JavaScript",
+          backgroungImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("+myReadsImg+")"
         }
       ]
     }

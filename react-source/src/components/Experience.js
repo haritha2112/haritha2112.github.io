@@ -11,9 +11,9 @@ export default class Experience extends Component {
       data: [
         {
           title: "Full Stack Developer | National Bricks Research Center",
-          description: "I am currently working here as a part-time full stack developer. I am working on adding additional functionality and revamping their existing system that is built on the LAMP stack. As the sole developer, I am fully responsible for designing and implementing features to help the researchers perform their day to day tasks with ease.",
+          description: "As the sole developer, I was responsible for maintaining and revamping the existing system built on the LAMP Stack to accommodate new features. I designed multiple user-interfaces to expedite data-management activities, thus allowing the organization to perform day-to-day tasks more efficiently.",
           startDate: "15 Jan 2018",
-          endDate: "Current",
+          endDate: "30 Apr 2018",
           image: "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('"+nbrcImage+"')"
         },
         {

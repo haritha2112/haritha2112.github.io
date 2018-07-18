@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import FontAwesome from "react-fontawesome";
-import resume from "../files/resume.pdf";
+import resume from "../files/Resume.pdf";
 
 export default class NavBar extends Component {
   constructor() {
